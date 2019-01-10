@@ -2,14 +2,14 @@
 
 def start():
     print("Welcome to RABBIT ATTACK!")
-    print("          ,\ ")
-    print("          \\\,_")
-    print("          \` ,\ ")
-    print("     __,.-, =__")
-    print("   ./        \ ")
-    print(",_/   ,    \/\_")
-    print("\_|    )_-\ \_-`")
-    print("   `-----` `--`")
+    print('''                     ,\ 
+                      \\\,_
+                     \` ,\ 
+                __,.-, =__)
+               ./        \ 
+            ,_/   ,    \/\_
+            \_|    )_-\ \_-`
+               `-----` `--`''')
 
 def end():
     print("Goodbye. Thanks for playing!")
@@ -37,6 +37,17 @@ def play():
             print("1... 2... 5... No, 3!")
             print("Boom!")
             rabbit_is_alive = False
+            print("      .-^^---....,,-- ")      
+            print("  _--                  --_ ")
+            print(" <                        >) ")
+            print(" |                         |")
+            print("  \._                   _./  ")
+            print("'    ```--. . , ; .--'''     ")  
+            print("           | |   |           ")  
+            print("'        .-=||  | |=-.   ")
+            print("        `-=#$%&%$#=-'   ")
+            print("           | ;  :|     ")
+            print(" _____.,-#%&$@%#&#~,._____   ")
         else:
             num_knights -= 1
             print("Oh, no! The rabbit just killed one of the knights!")
